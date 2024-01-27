@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-FROM alpine:3.16.2
+FROM alpine:3.18.6
 ARG RUST_TOOLCHAIN
 
 SHELL ["/bin/ash", "-o", "pipefail", "-c"]
